@@ -87,6 +87,13 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-align: center;
+}
+.footer-logo-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-title {
@@ -143,6 +150,12 @@
     
     .main-block {
         min-height: 450px;        
+    }
+    .footer-title {
+        font-size: 24px;
+    }
+    .footer-text {
+        font-size: 18px;
     }
     
 }
