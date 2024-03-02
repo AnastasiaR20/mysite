@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-block {
+    background: url("../images/background.jpg") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 725px;
+    padding-top: 50px;
+}
+
+.main-text-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 79px;
+    color: #ffffff;
+    display: flex;
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+}
+
+.main-subtitle {
+    font-weight: 300;
+    font-size: 27px;
+    font-family: "Montserrat";
+    color: #ffffff;
+}
+
+.main-button {
+    border-radius: 20px; 
+    background-color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Montserrat";
+    padding: 22px 26px;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.person-info-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 650px;
+    justify-content: center;
+}
+
+.person-info-title {
+    font-weight: 600;
+    font-size: 37px;
+    font-family: "Montserrat";
+    margin-bottom: 51px;
+}
+
+.person-info-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    margin: 0 9%;
+}
+
+.person-info-area {
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "Montserrat";
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:40px;
+}
+
+.footer-block {
+    background-color: #1E2E3D;
+    min-height: 503px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: "Montserrat";
+    color: white;
+    margin-top: 10px;
+}
+
+.footer-text {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: white;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 930px)
+ {
+    .person-info-section {
+        flex-direction: column;
+}
+.person-info-area {
+    font-size: 20px;
+}
+ }
+
+@media screen and (max-width: 670px)
+ {
+    .main-title {
+        font-size: 60px;
+    }
+
+    .main-block {
+        min-height: 600px;        
+    }
+
+    .person-info-title {
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 520px)
+ {
+    .main-title {
+        font-size: 40px;
+    }
+
+    .main-subtitle {
+        font-size: 20px;
+    }
+    
+    .main-block {
+        min-height: 450px;        
+    }
+    
+}
+
+@media screen and (max-width: 480px)
+ {
+    
+}
